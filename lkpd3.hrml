@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bilangan Genap 2 sampai 20</title>
+</head>
+<body onload="
+let genap = '';
+for(let i = 2; i <= 20; i += 2){
+    genap += i + ' ';
+}
+alert('Bilangan genap dari 2 sampai 20: ' + genap);
+">
+</script>
+ Berikut versi singkat:
+
+
+---
+
+1. Kapan pakai for daripada while:
+
+for → jumlah pengulangan sudah diketahui.
+
+while → pengulangan tergantung kondisi, jumlahnya tidak pasti.
+
+
+2. Manfaat perulangan:
+
+Tidak perlu menulis kode berulang-ulang.
+
+Lebih efisien, rapi, dan mudah diubah.
+
+Bisa menangani data banyak tanpa menulis banyak baris kode.
+</body>
+</html>
+
+
